@@ -1,6 +1,9 @@
 
 class SimConfig(object):
     def __init__(self):
+        Psdnom = 0.95
+        Prdnom = 1
+
         self.Data_Ts = 1/4000
 
         self.Ts = 0.000250
@@ -20,15 +23,15 @@ class SimConfig(object):
         self.P1 = 0.7
         self.P2 = 1.5
         self.np = 2
-        self.Psdnom = 0.95
+        self.Psdnom = Psdnom
 
         self.Uo = 15
         self.Ulim = 415*(2/3)**0.5
 
-        self.Psinit = [ 0.95,  0 ]
-        self.Prinit = [ 1,  0 ]
+        self.Psinit = [ Psdnom,  0 ]
+        self.Prinit = [ Prdnom,  0 ]
         self.Inom = 9.1
-        self.Prdnom = 1
+        self.Prdnom = Prdnom
 
         self.SLP_Coeff = 100
         self.Vnom = 400
