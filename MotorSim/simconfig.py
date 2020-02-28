@@ -54,3 +54,6 @@ class SimConfig(object):
 
         self.wn = 2*3.14*50
         self.Tn = 25
+
+    def get_config_json(self):
+        return {key:value for key, value in self.__dict__.items() if not key.startswith('__') and not callable(key)}
