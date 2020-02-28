@@ -1,5 +1,0 @@
-setup.py
-MotorSim.egg-info/PKG-INFO
-MotorSim.egg-info/SOURCES.txt
-MotorSim.egg-info/dependency_links.txt
-MotorSim.egg-info/top_level.txt
