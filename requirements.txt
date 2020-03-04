@@ -18,11 +18,8 @@ jupyter-core==4.6.3
 jupyterlab==2.0.0
 jupyterlab-server==1.0.7
 MarkupSafe==1.1.1
-# Editable install with no version control (matlabengineforpython===R2019b)
--e /usr/local/MATLAB/R2019b/extern/engines/python/dist
 mistune==0.8.4
 more-itertools==8.2.0
--e git+https://github.com/sagarverma/matsim.git@f0672c4f8ed36731b4c239a0b75f4656a87e3a58#egg=motorsim
 nbconvert==5.6.1
 nbformat==5.0.4
 notebook==6.0.3
