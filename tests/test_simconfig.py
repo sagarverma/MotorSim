@@ -1,6 +1,6 @@
 import pytest
 
-from MotorSim.simconfig import SimConfig
+from motorsim.simconfig import SimConfig
 
 class Test_SimConfig(object):
     def test__init(self):

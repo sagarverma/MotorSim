@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name='MotorSim',
+setup(name='motorsim',
       version='0.01',
       description='Utility package to use simulink motor models.',
       author='Sagar Verma',
