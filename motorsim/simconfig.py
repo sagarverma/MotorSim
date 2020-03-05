@@ -52,7 +52,7 @@ class SimConfig(object):
         self.xiCurr_PI = 1/2            #Parameter of the control law
         self.wSpeedEst = 2*3.14*500     #Parameter of the control law
 
-        self.wn = 2*3.14*50             #Nominal speed (Not used)
+        self.wn = 2*3.14*50             #Nominal frequency (Not used)
         self.Tn = 25                    #Nominal torque
 
     def get_config_json(self):
