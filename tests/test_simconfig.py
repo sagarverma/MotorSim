@@ -13,3 +13,11 @@ class Test_SimConfig(object):
         params = config.get_config_json()
         assert isinstance(params, dict)
         assert len(params.keys()) == 39
+
+    def test__set_config_json(self):
+        config = SimConfig()
+        params = config.get_config_json()
+        params['Tn'] = 30
+        config.set_config_from_json(params)
+        assert len(config.__dict__) == 39
+        assert config.Tn == 30
