@@ -19,6 +19,10 @@ class Py2Mat(object):
             else:
                 self.eng.workspace[k] = float(v)
 
+    def reconfigure(self, config):
+        self.config = config
+        self._set_workspace()
+        
     def sim(self, ref_speed, ref_load, speed_time, load_time, sim_time):
         data = self.eng.conn_python(ref_speed, ref_load, speed_time, load_time, sim_time)
         return data
