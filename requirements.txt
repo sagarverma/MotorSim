@@ -34,7 +34,7 @@ prometheus-client==0.7.1
 prompt-toolkit==3.0.3
 ptyprocess==0.6.0
 py==1.10.0
-Pygments==2.7.4
+Pygments==2.15.0
 pyparsing==2.4.6
 pyrsistent==0.15.7
 pytest==5.3.5
